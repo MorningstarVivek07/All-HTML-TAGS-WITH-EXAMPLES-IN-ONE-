@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- there are mainly 5 types of input in type attribute 
+        text,radio,submit,checkbox,button -->
+
+        <!-- <input type="text" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="submit" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="button" name="" id=""> -->
+    </form>
+    <!-- now we want to enter first name and last name from user as an input and make a form-->
+    <form>
+        <!-- input tag has 3 attributes...
+        type,id,name -->
+        <!-- where lable has 1 attribute "for" but lable "for" and input "id" must be same -->
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname">
+
+        <p>Choose your favorite language: </p>
+        <input type="radio" id="html" name="one">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="one">
+        <label for="css">CSS</label>
+
+        <p>Your Favorite wrestler: </p>
+        <input type="checkbox" name="Jhon" id="jhon">
+        <label for="jhon">JHONE CENA</label><br>
+        <input type="checkbox" name="under" id="under">
+        <label for="under">UNDERTAKER</label><br><br>
+
+        <!-- button tag is used to create a button in webpage -->
+
+        <button type="button">Click here</button><br><br>
+        
+        <!--textarea tag is used to create textbox on webpage that can able to store multiline input... -->
+
+        <textarea name="" id="" cols="30" rows="10">cat is playing</textarea><br><br>
+        
+        <!-- select tag used to create dropedown menu for items -->
+        <!-- select tag has 4 atributes such as size, name,id, multiple... -->
+        <!-- select is used for select dropdown mwnu size, multiple is used for selecting multiple items from dropdown -->
+        <label for="cars">Select your favorite cars: </label>
+        <select size="4" id="cars" multiple>
+            <option value="">Volvo</option>
+            <option value="">Tesla</option>
+            <option value="">Thar</option>
+            <option value="">Audi</option>
+            <option value="">BMW</option>
+        </select><br><br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
